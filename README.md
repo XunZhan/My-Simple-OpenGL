@@ -32,14 +32,14 @@ After initialization, the renderer will apply transformation matrix for vertex, 
 Rasterization can be done in several ways. Scan Lines (also known as [DDA](https://en.wikipedia.org/wiki/Digital_differential_analyzer_(graphics_algorithm))) and LLE (Linear Expression Evaluation) are common ways of rasterization. Here implements LEE using the class defined in `LEE.h` file.
 
 ## MFC User Interface
-<img src="img/app_ui_1.png" width="250" /> <img src="img/app_ui_2.png" width="250" />   
-Users can also change shading and texture options in `Application5.cpp`
-<img src="img/RenderOptions.png" width="750" /> 
+<img src="img/app_ui_1.png" width="250" /> <img src="img/app_ui_2.png" width="250" />    
+Users can also change shading and texture options in `Application5.cpp`  
+<img src="img/RenderOptions.png" width="500" />  
 
 ## Results
 > All images below are the results after anti-aliasing.   
 
-<div align="center"> <br><br> User Set Camera with/without Texture </div> 
+<div align="center"> <br><br> User Set Camera with/without Texture </div>  
 
 | Shading Mode | No Texture | Image Texture | Procedural Texture |
 |--|--|--|--|
@@ -47,23 +47,20 @@ Users can also change shading and texture options in `Application5.cpp`
 | Phong |![](img/p_no_tex.png)|![](img/p_img_tex.png)|![](img/p_pcd_tex.png)|
 
 
-<div align="center"> <br><br> 45 Degree Rotation in XYZ Axis </div> 
+<div align="center"> <br><br> 45 Degree Rotation in XYZ Axis </div>  
 
 | Shading Mode | X Axis| Y Axis| Z Axis|
 |--|--|--|--|
 | Gouraud |![](img/g_rot_45_x.png)|![](img/g_rot_45_y.png)|![](img/g_rot_45_z.png)|
-| Phong |![](img/p_rot_45_x.png)|![](img/p_rot_45_y.png)|![](img/p_rot_45_z.png)|
 
-<div align="center"> <br><br> 1.5 Translation in XYZ Axis </div> 
-
+<div align="center"> <br><br> 1.5 Translation in XYZ Axis </div
+>  
 | Shading Mode | X Axis| Y Axis| Z Axis|
 |--|--|--|--|
 | Gouraud |![](img/g_tans_1.5_x.png)|![](img/g_tans_1.5_y.png)|![](img/g_tans_1.5_z.png)|
-| Phong |![](img/p_tans_1.5_x.png)|![](img/p_tans_1.5_x.png)|![](img/p_tans_1.5_x.png)|
 
-<div align="center"> <br><br> 1.5 Scaling in XYZ Axis </div> 
+<div align="center"> <br><br> 1.5 Scaling in XYZ Axis </div>  
 
 | Shading Mode | X Axis| Y Axis| Z Axis|
 |--|--|--|--|
 | Gouraud |![](img/g_scale_1.5_x.png)|![](img/g_scale_1.5_y.png)|![](img/g_scale_1.5_z.png)|
-| Phong |![](img/p_scale_1.5_x.png)|![](img/p_scale_1.5_y.png)|![](img/p_scale_1.5_z.png)|
