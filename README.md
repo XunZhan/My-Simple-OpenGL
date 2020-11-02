@@ -47,22 +47,25 @@ Users can also change shading and texture options in `Application5.cpp`
 | Phong |![](img/p_no_tex.png)|![](img/p_img_tex.png)|![](img/p_pcd_tex.png)|
 
 
+
 <div align="center"> <br><br> 45 Degree Rotation in XYZ Axis </div>  
 
-| Shading Mode | X Axis| Y Axis| Z Axis|
+| Shading Mode | X Axis | Y Axis | Z Axis |
 |--|--|--|--|
 | Gouraud |![](img/g_rot_45_x.png)|![](img/g_rot_45_y.png)|![](img/g_rot_45_z.png)|
 
 
+
 <div align="center"> <br><br> 1.5 Translation in XYZ Axis </div>  
 
-| Shading Mode | X Axis| Y Axis| Z Axis|
+| Shading Mode | X Axis | Y Axis | Z Axis |
 |--|--|--|--|
 | Gouraud |![](img/g_tans_1.5_x.png)|![](img/g_tans_1.5_y.png)|![](img/g_tans_1.5_z.png)|
 
 
+
 <div align="center"> <br><br> 1.5 Scaling in XYZ Axis </div>  
 
-| Shading Mode | X Axis| Y Axis| Z Axis|
+| Shading Mode | X Axis | Y Axis | Z Axis |
 |--|--|--|--|
 | Gouraud |![](img/g_scale_1.5_x.png)|![](img/g_scale_1.5_y.png)|![](img/g_scale_1.5_z.png)|
